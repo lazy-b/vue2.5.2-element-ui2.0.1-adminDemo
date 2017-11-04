@@ -1,0 +1,2 @@
+webpackJsonp([5],{HxyU:function(e,t,r){"use strict";var n=function(){var e=this,t=e.$createElement,r=e._self._c||t;return r("div",[r("h2",[e._v(e._s(e.userName)+"，欢迎您！")])])},s=[],u={render:n,staticRenderFns:s};t.a=u},PR7K:function(e,t,r){"use strict";t.a={computed:{userName:function(){return this.$store.getters.userName}}}},ZTwq:function(e,t,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=r("PR7K"),s=r("HxyU"),u=r("0HdQ"),a=u(n.a,s.a,!1,null,null,null);t.default=a.exports}});
+//# sourceMappingURL=5.7148bffddb00de6537ea.js.map
