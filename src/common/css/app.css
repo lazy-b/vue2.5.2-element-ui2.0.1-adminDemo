@@ -1,0 +1,52 @@
+/*
+* @Author: yang
+* @Date:   2017-10-13 11:39:07
+* @Last Modified by:   yang
+* @Last Modified time: 2017-10-30 19:52:08
+*/
+
+/* 表格样式 */
+.my-datagrid th, .my-datagrid td {
+  padding: 0;
+  text-align: center;
+}
+
+.my-datagrid th .cell, .my-datagrid td .cell {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 2px;
+}
+
+.my-datagrid td .cell {
+  font-size: 12px;
+}
+
+.my-datagrid .my-select-type input {
+  width: 180px;
+  background-color: #f5f7fa;
+  margin-right: -16px;
+}
+
+/* 输入框自动完成列表样式 */
+.auto-complete ul {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.auto-complete ul li {
+  list-style: none;
+  line-height: 36px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #5a5e66;
+  cursor: pointer;
+  border-bottom: 1px dashed #ccc;
+}
+
+.auto-complete ul li:hover {
+  background-color: #ecf5ff;
+  color: #66b1ff;
+}
