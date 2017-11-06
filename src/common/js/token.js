@@ -2,12 +2,12 @@
 * @Author: yang
 * @Date:   2017-10-20 15:10:19
 * @Last Modified by:   yang
-* @Last Modified time: 2017-11-04 11:18:16
+* @Last Modified time: 2017-11-06 14:59:28
 */
 
 import Cookies from 'js-cookie'
 // 设置cookie键名方便测试
-const TokenKey = 'TOKENTEST'
+const TokenKey = 'TOKEN'
 
 // 获取cookie中的token
 export function getToken() {

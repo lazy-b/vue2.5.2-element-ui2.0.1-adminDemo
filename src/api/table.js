@@ -2,7 +2,7 @@
 * @Author: yang
 * @Date:   2017-10-12 17:37:16
 * @Last Modified by:   yang
-* @Last Modified time: 2017-11-04 11:21:03
+* @Last Modified time: 2017-11-06 11:17:13
 */
 
 // 全局请求拦截器在main.js中配置
@@ -53,8 +53,9 @@ export const crud = function(requestParams) {
     // 都不匹配则同样返回rejected状态
     default:
       // 使用error进行堆栈跟踪
-      myPromise = Promise.reject(new Error("请求参数有误")).then(null,
-                    function(error) {console.log(error);});
+      // myPromise = Promise.reject(new Error("请求参数有误")).then(null,
+      //               function(error) {console.log(error);});
+      myPromise = Promise.reject(new Error("请求参数有误"));
   }
 
   return myPromise;

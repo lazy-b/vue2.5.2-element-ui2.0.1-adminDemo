@@ -2,7 +2,7 @@
 * @Author: yang
 * @Date:   2017-10-23 10:33:06
 * @Last Modified by:   yang
-* @Last Modified time: 2017-11-06 10:38:24
+* @Last Modified time: 2017-11-06 14:09:54
 */
 
 import Vue from 'vue'
@@ -16,12 +16,13 @@ Vue.use(VueRouter)
 
 // 创建路由
 const router = new VueRouter({
-  // mode: 'history',    // 路由的模式
+  // mode: 'hisstory',    // 路由的模式
   // base: __dirname,
+  // base: '/vue+vue-router+vuex+axios+element-ui+mock-demo/',
   // 如果使用对象简洁表示法只写constantRoutes
   // routes将加载失败
   // 而且且不会报错 --、
   routes: constantRoutes
 });
-console.log(__dirname)
+
 export default router;

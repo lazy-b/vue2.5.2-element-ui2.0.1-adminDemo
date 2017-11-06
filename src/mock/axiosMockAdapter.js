@@ -2,7 +2,7 @@
 * @Author: yang
 * @Date:   2017-10-12 19:35:35
 * @Last Modified by:   yang
-* @Last Modified time: 2017-11-04 10:47:41
+* @Last Modified time: 2017-11-06 10:58:53
 */
 
 //导入模块
@@ -111,7 +111,7 @@ export default {
       return [status, {
         msg: msg,
         token: token[data.username],
-        homeView: ''  // 个性化主页，绝对路径字符串：'/table/orderInfo'
+        homeViewName: ''  // 个性化主页，route的name，方便后续修改路径
       }];
     });
     // 测试修改用户信息

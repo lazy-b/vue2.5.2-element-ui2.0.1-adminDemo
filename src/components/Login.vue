@@ -92,10 +92,13 @@ export default {
               // 登录成功之后跳转到首页
               // 如果服务器没有返回定制化首页，则跳转到默认首页
               // 路径'/'在route里配置了重定向到默认首页
-              const homeView = res.data.homeView || '/';
+              const homeViewName = res.data.homeViewName || 'welcome'
 
-              this.$router.push({ path: homeView });
-
+              // 此处会警告，因为主页现在还没加载
+              // 但是不影响，因为在跳转之前就会异步加载
+              // 如果介意可以换成绝对路径'/'，但是如果自定义主页
+              // 还是会警告，但是同样没有影响
+              this.$router.push({ name: homeViewName });
               // 展示登录成功状态
               this.$message({
                 type: 'success',
