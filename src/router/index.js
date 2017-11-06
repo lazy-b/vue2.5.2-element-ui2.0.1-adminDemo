@@ -2,7 +2,7 @@
 * @Author: yang
 * @Date:   2017-10-23 10:33:06
 * @Last Modified by:   yang
-* @Last Modified time: 2017-11-04 20:33:40
+* @Last Modified time: 2017-11-06 10:38:24
 */
 
 import Vue from 'vue'
@@ -23,5 +23,5 @@ const router = new VueRouter({
   // 而且且不会报错 --、
   routes: constantRoutes
 });
-
+console.log(__dirname)
 export default router;

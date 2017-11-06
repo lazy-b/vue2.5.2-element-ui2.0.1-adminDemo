@@ -2,7 +2,7 @@
 * @Author: yang
 * @Date:   2017-10-23 10:39:13
 * @Last Modified by:   yang
-* @Last Modified time: 2017-11-04 10:43:19
+* @Last Modified time: 2017-11-06 09:57:39
 */
 
 import * as components from './components'
@@ -36,7 +36,7 @@ export let asynchronousRoutes = [
     redirect: '/welcome', // 默认首页
     children: [
             {
-              path: '/welcome',
+              path: 'welcome',
               name: 'welcome',
               component: components.Welcome,
               meta: {
@@ -47,7 +47,7 @@ export let asynchronousRoutes = [
               }
             },
             {
-              path: '/table',
+              path: 'table',
               name: 'table',
               component: components.Table,
               meta: {
@@ -58,7 +58,7 @@ export let asynchronousRoutes = [
               },
               children: [
                 {
-                  path: '/table/orderInfo',
+                  path: 'orderInfo',
                   name: 'orderInfo', // route的name设置为表格名，方便获取数据
                   component: components.Table,
                   meta: {
@@ -69,7 +69,7 @@ export let asynchronousRoutes = [
                   }
                 },
                 {
-                  path: '/table/orderSchedule',
+                  path: 'orderSchedule',
                   name: 'orderSchedule',
                   component: components.Table,
                   meta: {
@@ -82,7 +82,7 @@ export let asynchronousRoutes = [
               ]
             },
             {
-              path: '/excelUpload',
+              path: 'excelUpload',
               name: 'excelUpload',
               component: components.ExcelUpload,
               meta: {
@@ -93,7 +93,7 @@ export let asynchronousRoutes = [
               }
             },
             {
-              path: '/userInfo',
+              path: 'userInfo',
               name: 'userInfo',
               component: components.UserInfo,
               meta: {
@@ -104,7 +104,7 @@ export let asynchronousRoutes = [
               }
             },
             {
-              path: '/testView',
+              path: 'testView',
               name: 'testView',
               component: components.TestView,
               meta: {
