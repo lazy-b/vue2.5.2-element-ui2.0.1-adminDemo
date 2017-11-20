@@ -1,4 +1,6 @@
 # vue2.5.2-element-ui2.0.1-adminDemo
+  
+# 项目特色：详细到令人发指的注释，适合作为vue 2.5.2 + element-ui 2.0.1 + vuex + vue-router + axios + mock入门以及进阶的学习资料！！！ 
 
 > A Vue.js project
 
